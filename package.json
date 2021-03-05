@@ -4,5 +4,15 @@
   "description": "A nodecg example using Parcel2 + TypeScript + Preact",
   "repository": "git@github.com:nt3rp/nodecg-parcel-ts-preact.git",
   "author": "Nick Terwoord <nicholas.terwoord+code@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve './src/**/*.html' --dist-dir=."
+  },
+  "devDependencies": {
+    "@parcel/optimizer-htmlnano": "2.0.0-nightly.617",
+    "@parcel/packager-html": "2.0.0-nightly.617",
+    "@parcel/transformer-html": "2.0.0-nightly.617",
+    "@parcel/transformer-posthtml": "2.0.0-nightly.617",
+    "parcel": "^2.0.0-nightly.615"
+  }
 }
