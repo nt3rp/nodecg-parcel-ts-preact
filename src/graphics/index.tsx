@@ -5,9 +5,9 @@ interface User {
   name: string;
 }
 
-let user: User = {
+const user: User = {
   id: 0,
-  name: "Guardian",
+  name: 'Guardian'
 }
 
 const container = document.getElementById('container')
