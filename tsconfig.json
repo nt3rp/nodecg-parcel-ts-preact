@@ -3,6 +3,6 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "jsxImportSource": "preact",
-    "skipLibCheck": true,
+    "skipLibCheck": true
   }
 }

@@ -1,4 +1,4 @@
-import { h, render } from 'preact'
+import { h, render } from "preact";
 
 interface User {
   id: number;
@@ -7,9 +7,14 @@ interface User {
 
 const user: User = {
   id: 0,
-  name: 'Guardian'
-}
+  name: "Guardian",
+};
 
-const container = document.getElementById('container')
+const container = document.getElementById("container");
 
-render(<div>{user.name} (ID: {user.id})</div>, container)
+render(
+  <div>
+    {user.name} (ID: {user.id})
+  </div>,
+  container
+);
