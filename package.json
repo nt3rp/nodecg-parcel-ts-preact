@@ -1,0 +1,8 @@
+{
+  "name": "nodecg-parcel-ts-preact",
+  "version": "0.0.1",
+  "description": "A nodecg example using Parcel2 + TypeScript + Preact",
+  "repository": "git@github.com:nt3rp/nodecg-parcel-ts-preact.git",
+  "author": "Nick Terwoord <nicholas.terwoord+code@gmail.com>",
+  "license": "MIT"
+}
